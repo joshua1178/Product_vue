@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.task-input input {
+    padding: 8px;
+    width: 60%;
+    border: 1px solid #ccc;
+}
+
+.task-input button,
+.counter button {
+    padding: 8px 12px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+}
+
+.actions span {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.complete {
+    color: green;
+}
+
+.delete {
+    color: red;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
